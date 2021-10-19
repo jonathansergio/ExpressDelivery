@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <expressdelivery>
+                <name>Express Delivery</name>
+                <title>Express Delivery</title>
+                <model>Js\ExpressDelivery\Model\Carrier\Shipping</model>
+                <active>1</active>
+                <!-- <price>10.00</price> -->
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+                <!-- <handling_type>F</handling_type> -->
+            </expressdelivery>
+        </carriers>
+    </default>
+</config>
